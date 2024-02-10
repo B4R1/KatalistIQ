@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR.js Example with Multiple Markers</title>
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
 </head>
 <body style="margin: 0; overflow: hidden;">
-    <a-scene embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;">
+    <a-scene 
+    embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;"
+    vr-mode-ui="enabled: false;"
+    renderer="logarithmicDepthBuffer: true;">
         <!-- Marker 1 -->
-        <a-marker type="image" url="marker/2.png">
+        <a-marker 
+        type="nft" 
+        url="marker/2"
+        smooth="true"
+        smoothCount="10"
+        smoothTolerance=".01"
+        smoothThreshold="5">
             <a-image rotation="0 90 0" src="models/Flag_of_Malaysia.svg.png"></a-box>
         </a-marker>
 
