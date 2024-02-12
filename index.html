@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR.js Example with Multiple Markers</title>
+    <title>KatilistIQ</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <!-- we import arjs version without NFT but with marker + location based support -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 </head>
 <body style="margin: 0; overflow: hidden;">
+    
     <a-scene 
     embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;"
     vr-mode-ui="enabled: false;"
@@ -16,12 +17,25 @@
         <!-- Marker 1 -->
         <a-marker 
         type="pattern" 
-        url="marker/pattern-2.patt"
+        url="marker/pattern-Marker1.patt"
         >
             <a-image rotation="0 90 0" src="models/Flag_of_Malaysia.svg.png"></a-box>
         </a-marker>
 
         <!-- Marker 2 -->
+        <a-marker 
+        type="pattern" 
+        url="marker/pattern-Marker2.patt"
+        >
+            <a-image rotation="0 90 0" src="models/Tunku_abd_rahman.jpg"></a-box>
+        </a-marker>
+
+        <a-marker 
+        type="pattern" 
+        url="marker/pattern-Marker3.patt"
+        >
+            <a-image rotation="0 90 0" src="models/sehati-sejiwa-removebg-preview.png"></a-box>
+        </a-marker>
 
         <!-- Add more markers as needed -->
 
