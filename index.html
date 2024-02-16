@@ -73,9 +73,19 @@
         var overlaySquare = document.getElementById("overlaySquare");
         var overlayText = document.getElementById("overlayText");
 
-        function hideOverlay() {
-            overlayContainer.style.display = "none";
+        function blinkOverlay() {
+            setInterval(function() {
+                overlayContainer.style.display = (overlayContainer.style.display === 'none') ? '' : 'none';
+            }, 500);
         }
+
+        function hideOverlay() {
+            clearInterval(blinkInterval);
+            overlayContainer.style.display = "none";
+        }  
+
+        var blinkInterval = blinkOverlay();
+
         setTimeout(hideOverlay, 5000);
     </script>
       
