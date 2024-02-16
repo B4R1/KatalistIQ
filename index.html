@@ -38,7 +38,7 @@
             text-decoration: none;
             padding: 10px;
             transition: background-color 0.3s ease;
-            margin-right: 20px; /* Add margin to the right */
+            margin-right: 20px;
         }
         
         .topbar a:hover {
@@ -59,7 +59,7 @@
     </div>
     
     <a-scene 
-    embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;"
+    embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false; detection-mode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5"
     vr-mode-ui="enabled: false;"
     renderer="logarithmicDepthBuffer: true;">
 
@@ -84,26 +84,26 @@
         }, 7000);
     </script>
       
-        <!-- Marker 1 -->
+        <!-- Marker: Jalur Gemilang -->
         <a-marker 
-        type="pattern" 
-        url="marker/pattern-Marker1.patt"
+        type="barcode" 
+        value="0"
         >
             <a-image rotation="0 90 0" src="models/Flag_of_Malaysia.svg.png"></a-image>
         </a-marker>
 
-        <!-- Marker 2 -->
+        <!-- Marker 2: Tunku Abdul Rahman -->
         <a-marker 
-        type="pattern" 
-        url="marker/pattern-Marker2.patt"
+        type="barcode" 
+        value="1"
         >
             <a-image rotation="0 90 0" src="models/Tunku_abd_rahman.jpg"></a-image>
         </a-marker>
 
-        <!-- Marker 3 -->
+        <!-- Marker 3: Tema Malaysia Sehati Sejiwa(With Transparent Background) -->
         <a-marker 
-        type="pattern" 
-        url="marker/pattern-Marker3.patt"
+        type="barcode" 
+        value="2"
         >
             <a-image rotation="0 90 0" src="models/sehati-sejiwa-removebg-preview.png" scale="2"></a-image>
         </a-marker>
