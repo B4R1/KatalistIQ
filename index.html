@@ -73,20 +73,15 @@
         var overlaySquare = document.getElementById("overlaySquare");
         var overlayText = document.getElementById("overlayText");
 
-        function blinkOverlay() {
-            setInterval(function() {
-                overlayContainer.style.display = (overlayContainer.style.display === 'none') ? '' : 'none';
-            }, 500);
-        }
+        var blinkInterval = setInterval(function() {
+        overlayContainer.style.display = (overlayContainer.style.display === 'none') ? '' : 'none';
+        }, 500);
 
-        function hideOverlay() {
+        // Hide the overlay after 5 seconds
+        setTimeout(function() {
             clearInterval(blinkInterval);
-            overlayContainer.style.display = "none";
-        }  
-
-        var blinkInterval = blinkOverlay();
-
-        setTimeout(hideOverlay, 5000);
+            overlayContainer.style.display = 'none';
+        }, 5000);
     </script>
       
         <!-- Marker 1 -->
