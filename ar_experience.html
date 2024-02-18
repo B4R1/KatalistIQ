@@ -84,35 +84,41 @@
             overlayContainer.style.display = 'none';
         }, 7000);
     </script>
-      
-        <!-- Marker: Jalur Gemilang -->
-        <a-marker 
-        type="barcode" 
-        value="0"
-        >
-            <a-image rotation="0 90 0" position="0 0.5 0" src="models/Flag_of_Malaysia.svg.png"></a-image>
-        </a-marker>
-
-        <!-- Marker 2: Tunku Abdul Rahman -->
-        <a-marker 
-        type="barcode"
-        value="1"
-        >
-            <a-image rotation="0 90 0" position="0 0.5 0" src="models/Tunku_abd_rahman.jpg"></a-image>
-        </a-marker>
-
-        <!-- Marker 3: Tema Malaysia Sehati Sejiwa(With Transparent Background) -->
-        <a-marker 
-        type="barcode"
-        value="2"
-        >
-            <a-image rotation="0 90 0" position="0 0.5 0" src="models/sehati-sejiwa-removebg-preview.png" scale="2"></a-image>
-        </a-marker>
-
-        <!-- TODO: add more marker for more question -->
 
         <a-entity camera></a-entity>
     </a-scene>
+
+    <script>
+        // Define an array to store marker information
+        var markers = [
+            { type: "barcode", value: "0", imageSrc: "models/Flag_of_Malaysia.svg.png" },
+            { type: "barcode", value: "1", imageSrc: "models/Tunku_abd_rahman.jpg" },
+            { type: "barcode", value: "2", imageSrc: "models/sehati-sejiwa-removebg-preview.png", scale: "2" }
+            // Add more markers as needed
+        ];
+
+        // Function to create and append marker elements
+        function createMarkers() {
+            var scene = document.querySelector("a-scene");
+            markers.forEach(function(marker) {
+                var markerEl = document.createElement("a-marker");
+                markerEl.setAttribute("type", marker.type);
+                markerEl.setAttribute("value", marker.value);
+                var imageEl = document.createElement("a-image");
+                imageEl.setAttribute("rotation", "0 90 0");
+                imageEl.setAttribute("position", "0 0.5 0");
+                imageEl.setAttribute("src", marker.imageSrc);
+                if (marker.scale) {
+                    imageEl.setAttribute("scale", marker.scale);
+                }
+                markerEl.appendChild(imageEl);
+                scene.appendChild(markerEl);
+            });
+        }
+
+        // Call the function to create markers
+        createMarkers();
+    </script>
 
 </body>
 </html>
