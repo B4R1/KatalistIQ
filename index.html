@@ -7,9 +7,9 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: monospace, sans-serif;
             background-color: #f0f0f0;
-        }
+            }
         
         .topbar {
             background-color: #333;
@@ -20,7 +20,7 @@
         
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: auto;
             padding: 20px;
             text-align: center;
         }
@@ -31,10 +31,11 @@
         }
         
         .card {
-            display: inline-block;
-            padding: 40px 60px 80px; /* Increase bottom padding to accommodate the icon */
-            background-color: #fff;
-            border-radius: 8px;
+            display: block;
+            padding: 40px 40px 10px; /* Increase bottom padding to accommodate the icon */
+            width: 140px;
+            height: 140px;
+            background-color: #fff;border-radius: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -42,7 +43,7 @@
         }
         
         .card:hover {
-            transform: scale(1.0);
+            transform: scale(1.1);
         }
         
         .icon {
@@ -56,7 +57,7 @@
 
         .card-text {
             margin-top: 80px; /* Adjust the margin to lower the text */
-            font-size: 18px; /* Adjust the font size if necessary */
+            font-size: 15px; /* Adjust the font size if necessary */
         }
     </style>
 </head>
@@ -75,6 +76,19 @@
     <script>
         function redirectToARPage() {
             window.location.href = "ar_experience.html"; // Change the filename if your AR page has a different name
+        }
+    </script>
+
+    <div class="container">
+        <div class="card" onclick="redirectToAnsPage()">
+            <img class="icon" src="assets/folder.png" alt="AR Icon"> <!-- Replace "path_to_your_icon.png" with the path to your icon image -->
+            <h2 class="card-text">Answers</h2>
+        </div>
+    </div>
+
+    <script>
+        function redirectToAnsPage() {
+            window.location.href = "answer.html"; // Change the filename if your AR page has a different name
         }
     </script>
 </body>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>KatilistIQ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: monospace, sans-serif;
+            background-color: #f0f0f0;
+            }
+        
+            .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        
+        .topbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        
+        .topbar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+            margin-right: 20px;
+        }
+        
+        .topbar a:hover {
+            background-color: #555;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            margin-top: 10%;
+            font-size: 24px;
+        }
+        
+        .card {
+            display: block;
+            padding: 40px 40px 10px; /* Increase bottom padding to accommodate the icon */
+            width: 140px;
+            height: 140px;
+            background-color: #fff;border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        
+        .card:hover {
+            transform: scale(1.1);
+        }
+        
+        .icon {
+            position: absolute;
+            top: 10px; /* Adjust the position of the icon */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px; /* Adjust the size of the icon */
+            height: auto;
+        }
+
+        .card-text {
+            margin-top: 80px; /* Adjust the margin to lower the text */
+            font-size: 15px; /* Adjust the font size if necessary */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #search-form {
+            height: 10%;
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 10px;
+        }
+
+        #search-input {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 5px;
+            width: 250px;
+        }
+
+        #search-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #search-button:hover {
+            background-color: #0056b3;
+        }
+
+        #level-select {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 10px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        #qa-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .qa-item {
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .qa-item h3 {
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <h1>KatilistIQ</h1>
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+    
+    <h1>Soalan dan Jawapan</h1>
+    
+    <form id="search-form">
+        <input type="number" id="search-input" name="search-input" placeholder="Enter question number">
+        <button type="submit" id="search-button">Search</button>
+    </form>
+
+    <select id="level-select">
+        <option value="1">Level 1</option>
+        <option value="2">Level 2</option>
+        <option value="3">Level 3</option>
+    </select>
+
+    <div id="qa-container"></div>
+
+    <script src="answer.js"></script>
+
+</body>
+</html>

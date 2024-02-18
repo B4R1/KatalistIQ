@@ -10,7 +10,7 @@
         body {
             margin: 0;
             overflow: hidden;
-            font-family: Arial, sans-serif;
+            font-family: monospace, sans-serif;
         }
         
         .topbar {
@@ -65,7 +65,7 @@
     embedded arjs="sourceType: webcam; debugUIEnabled: false; vr-mode-ui: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4;">
 
     <div id="overlayContainer" style="position: relative; width: 100%; height: 100%; border: 2px solid black;">
-        <div id="overlaySquare" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 200px; border: 2px dotted red;"></div>
+        <div id="overlaySquare" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 200px; border: 2px dotted red; border-radius: 20px;"></div>
         <div id="overlayText" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-size: 20px; color: red;">Make sure the marker is in view</div>
     </div>
 
