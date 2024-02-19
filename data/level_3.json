@@ -1,157 +1,61 @@
 [
     {
         "number": 1,
-        "question": "Mengapakah laporan Razak ditentang oleh orang Melayu?",
-        "answer": "Tiada ketegasan dalam pelaksanaan bahasa kebangsaan."
+        "question": "Apakah fungsi Perdana Menteri dalam konteks demokrasi berparlimen Malaysia?",
+        "answer": "Perdana Menteri Malaysia adalah ketua eksekutif yang memimpin Kerajaan Persekutuan dan bertanggungjawab untuk mengarah pentadbiran negara"
     },
 
     {
         "number": 2,
-        "question": "Pada tahun 1959, Jawatankuasa Penyemak Pelajaran ditubuhkan. Mengapakah jawatankuasa tersebut ditubuhkan?",
-        "answer": "Mengkaji semula pelaksanaan Laporan Razak"
+        "question": "Adakah peranan Yang di-Pertuan Agongm elibatkan isu-isu agama?",
+        "answer": "Ya, Yang di-Pertuan Agong memainkan peranan dalam hal-hal berkaitan dengan agama Islam, termasuk memastikan kedudukan agama Islam sebagai agama rasmi negara malaysia dikekalkan dan dipelihara."
     },
 
     {
         "number": 3,
-        "question": "Nyatakan objektif dasar pendidikan kebangsaan.",
-        "answer": "Menubuhkan satu sistem pendidikan yang akan dapat memenuhi keperluan negara. Menggalakkan perkembangan kebudayaan, sosial, ekonomi, dan politiknya."
-    },
-
-    {
-        "number": 4,
-        "question": "Apakah yang dilakukan oleh Tunku Abdul Rahman pada Januari 1956?",
-        "answer": "Mengetuai rombongan ke London."
-    },
-
-    {
-        "number": 5,
-        "question": "Apakah tujuan Tunku Abdul Rahman ke London pada Januari 1956?",
-        "answer": "Membincangkan soal penggubalan Perlembagaan Persekutuan DAN berunding untuk tarikh kemerdekaan negara."
-    },
-
-    {
-        "number": 6,
-        "question": "Secara umumnya, perlembagaan Malaysia terbahagi kepada 3 isi kandungan terbesar. Nyatakan 3 isi kandungan tersebut.",
-        "answer": "Kebebasan asasi, Kewarganegaraan, Sistem Pemerintahan."
-    },
-
-    {
-        "number": 7,
-        "question": "Nyatakan 3 fungsi utama suruhanjaya pilihan raya Malaysia",
-        "answer": "1. Membuat kajian dan persempadanan semula 2. Menjalankan urusan pendaftaran pemilih dan semakan daftar pemilih. 3. Menjalankan pilihan raya"
-    },
-
-    {
-        "number": 8,
         "question": "Pada Mac 1956 satu Suruhanjaya Perlembagaan diketuai Lord Reid telah ditubuhkan. Apakah tujuan Suruhanjaya Perlembagaan tersebut ditubuhkan?",
         "answer": "Merangka dan meneliti Perlembagaan Persekutuan Tanah Melayu."
     },
 
     {
-        "number": 9,
-        "question": "Kebebasan asasi individu boleh dibahagikan kepada 2 jenis. Nyatakan jenis kebebasan tersebut.",
-        "answer": "Kebebasan Mutlak dan kebebasan bersyarat."
+        "number": 4,
+        "question": "Secara umumnya, perlembagaan Malaysia terbahagi kepada 3 isi kandungan terbesar. Nyatakan 3 isi kandungan tersebut.",
+        "answer": "Kebebasan asasi, Kewarganegaraan, Sistem Pemerintahan."
     },
 
     {
-        "number": 10,
-        "question": "Berdasarkan Perlembagaan Persekutuan, seseorang boleh memperoleh kewarganegaraan melalui 4 cara. Nyatakan cara-cara tersebut.",
-        "answer": "1. Secara kuatkuasa undang-undang 2. Secara pendaftaran 3. Secara naturalisasi/masukan 4. Secara percantuman wilayah"
+        "number": 5,
+        "question": "Negara bangsa mesti mempunyai 3 komponen utama.Nyatakan 3 komponen utama tersebut",
+        "answer": "Negara, Individu, Bangsa"
     },
 
     {
-        "number": 11,
-        "question": "Terdapat beberapa gaya kepimpinan. Nyatakan 3 gaya kepimpinan yang telah anda pelajari.",
-        "answer": "Kepimpinan Autokratik / Kepimpinan Berperikemanusiaan / Kepimpinan Demokrasi / Kepimpinan Laissez-Faire(kebebasan) / Gaya kepimpinan yang agung (mana-mana jawapan diterima)"
-    },
-
-    {
-        "number": 12,
+        "number": 6,
         "question": "Komunikasi merupakan suatu perkara yang penting kepada pemimpin. Terdapat dua bentuk komunikasi yang boleh dilakukan oleh pemimpin. Nyatakan bentuk komunikasi tersebut.",
         "answer": "Verbal dan bukan verbal"
     },
 
     {
-        "number": 13,
+        "number": 7,
         "question": "Apakah perbezaan utama antara sistem demokrasi dan sistem autokrasi?",
         "answer": "Sistem demokrasi memberikan kuasa kepada rakyat untuk memilih wakil-wakil mereka. Sistem autokrasi dikuasai oleh satu pemerintah tunggal yang memegang kuasa mutlak"
     },
 
     {
-        "number": 14,
+        "number": 8,
         "question": "Terangkan konsep utama dalam teori politik seperti keadilan.",
         "answer": "Keadilan menekankan pemberian hak yang saksama kepada semua individu"
     },
 
     {
-        "number": 15,
+        "number": 9,
         "question": "Terangkan konsep utama dalam teori politik seperti kesamarataan.",
         "answer": "Kesamarataan menuntut penjagaan hak-hak yang sama kepada semua warganegara"
     },
 
     {
-        "number": 16,
+        "number": 10,
         "question": "Terangkan konsep utama dalam teori politik seperti kebebasan.",
         "answer": "Kebebasan mewakili hak individu untuk bertindak tanpa campur tangan"
-    },
-
-    {
-        "number": 17,
-        "question": "Nyatakan fungsi dan tugas majlis raja-raja Melayu",
-        "answer": "1.Memilih Yang Dipertuan Agong dan Timbalan YDPA. 2.Mempersetujui dan tidak mempersetujui supaya apa-apa perbuatan, amalan atau upacara agama meliputi seluruh Persekutuan. 3.Melantik anggota-anggota Mahkamah Khas. 4.Untuk mengampuni, menggantung undang-undang dan meringankan undang-undang, kenakan hukuman ke atas seseorang. 5. Melantik seorang wakil untuk menganggotai Majlis Angkatan Tentera dan Ahli Lembaga Pengelola Dewan Bahasa dan Pustaka. (Mana-mana satu diterima)"
-    },
-
-    {
-        "number": 18,
-        "question": "Nyatakan prinsip utama sistem demokrasi berparlimen",
-        "answer": "Raja berperlembagaan/parlimen/perlembagaan/kebebasan asasi/Sistem pemerintahan "
-    },
-
-    {
-        "number": 19,
-        "question": "Terangkan konsep keselamatan sosial.",
-        "answer": "Keselamatan sosial melibatkan perlindungan masyarakat melalui program-program seperti insurans kesihatan dan pencen"
-    },
-
-    {
-        "number": 20,
-        "question": "Negara bangsa mesti mempunyai 3 komponen utama. Nyatakan 3 komponen utama tersebut",
-        "answer": "negara, individu, bangsa"
-    },
-
-    {
-        "number": 21,
-        "question": "Apakah peranan Agong dalam proses pilihan raya di Malaysia?",
-        "answer": "Yang di-Pertuan Agong memainkan peranan penting dalam proses membubarkan parlimen bagi membolehkan pilihan raya dijalankan, termasuk melantik Perdana Menteri dan mengumumkan pilihan raya umum."
-    },
-
-    {
-        "number": 22,
-        "question": "Adakah Yang di-Pertuan Agong mempunyai kuasa eksekutif sepenuhnya?",
-        "answer": "Tidak, Yang di-Pertuan Agong mempunyai kuasa yang termaktub ikut kepada perlembagaan dan tindakan selaras dengan perdana menteri."
-    },
-
-    {
-        "number": 23,
-        "question": "Adakah peranan Yang di-Pertuan Agong melibatkan isu-isu agama?",
-        "answer": "Ya, Yang di-Pertuan Agong memainkan peranan dalam hal-hal berkaitan dengan agama Islam, termasuk memastikan kedudukan agama Islam sebagai agama rasmi negara malaysia dikekalkan dan dipelihara."
-    },
-
-    {
-        "number": 24,
-        "question": "Bagaimana Rukun Negara dapat memainkan peranan dalam pembangunan negara?",
-        "answer": "Rukun Negara menyediakan panduan moral dan etika untuk warganegara, yang membantu membentuk masyarakat yang bersatu padu dan berkembang secara progresif."
-    },
-
-    {
-        "number": 25,
-        "question": "Mengapa terdapat TIGA bintang dalam bendera Wilayah Persekutuan?",
-        "answer": "kerana terdapat TIGA jumlah wilayah pesekutuan di Malaysia"
-    },
-
-    {
-        "number": 26,
-        "question": "Apakah maksud Harimau dalam jata negara?",
-        "answer": "Dua ekor Harimau yang berada di sebelah kiri dan kanan jata itu pula adalah merupakan haiwan rasmi Malaysia iaitu Harimau Malaya dan merupakan haiwan rasmi bagi Negeri-negeri Melayu Bersekutu terdahulu dan digunakan dalam Lambang Malaysia. Harimau itu juga merupakan simbol keberanian."
     }
 ]

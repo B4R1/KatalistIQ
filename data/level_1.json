@@ -6,164 +6,54 @@
     },
     {
         "number": 2,
-        "question": "Siapakah Perdana Menteri pertama Malaysia?",
-        "answer": "Tunku Abdul Rahman Putra Al-Haj"
-    },
-    {
-        "number": 3,
-        "question": "Bilakah Tanah Melayu mencapai kemerdekaan?",
-        "answer": "31 Ogos 1957"
-    },
-
-    {
-        "number":4,
         "question": "Berapakah bilangan jalur dalam Jalur Gemilang?",
         "answer": "14 jalur"
     },
-
     {
-        "number":5,
-        "question": "Apakah tema kemerdekaan Malaysia pada tahun 2015?",
-        "answer": "Sehati Sejiwa"
-    },
-
-    {
-        "number":6,
-        "question": "Apakah sungai terpanjang di Malaysia?",
-        "answer": "Sungai Rajang"
-    },
-
-    {
-        "number":7,
-        "question": "Apakah bunga kebangsaan Malaysia?",
-        "answer": "Bunga Raya"
-    },
-
-    {
-        "number":8,
-        "question": "Apakah nama bendera Malaysia?",
-        "answer": "Jalur Gemilang"
-    },
-
-    {
-        "number":9,
-        "question": "Nyatakan rangkap ke empat untuk Prinsip Rukun Negara.",
-        "answer": "Keluhuran perlembagaan."
-    },
-
-    {
-        "number":10,
-        "question": "Pada tahun ke berapakah Sabah dan Sarawak menyertai Tanah Melayu untuk membentuk Negara Malaysia.",
-        "answer": "1963"
-    },
-
-    {
-        "number":11,
-        "question": "Siapakah yang digelar Bapa Pembangunan Malaysia?",
-        "answer": "Tun Abdul Razak Dato’ Hussein"
-    },
-
-    {
-        "number":12,
-        "question": "Siapakah yang digelar Bapa Kemerdekaan Malaysia?",
-        "answer": "Tunku Abdul Rahman"
-    },
-
-    {
-        "number":13,
+        "number": 3,
         "question": "Siapakah perdana menteri Malaysia yang ke-8?",
         "answer": "Tan Sri Muhyiddin Yassin"
     },
 
     {
-        "number":14,
-        "question": "Apakah menara berkembar yang tertinggi di dunia?",
-        "answer": "Menara Berkembar Petronas"
-    },
-
-    {
-        "number":15,
-        "question": "Siapakah Yang di-Pertuan Agong pertama Malaysia?",
-        "answer": "Tuanku Abdul Rahman Ibni Almarhum Tuanku Muhammad"
-    },
-
-    {
-        "number":16,
-        "question": "Berapakah bilangan laungan “merdeka” yang dilaungkan oleh Tunku Abdul Rahman ketika pengishtiharan Tanah Melayu?",
-        "answer": "7 laungan"
-    },
-
-    {
-        "number":17,
+        "number":4,
         "question": "Apakah tema Hari Kebangsaan pada tahun 2021?",
         "answer": "Malaysia Prihatin"
     },
 
     {
-        "number":18,
-        "question": "Apakah gunung tertinggi di Malaysia?",
-        "answer": "Gunung Kinabalu"
+        "number":5,
+        "question": "Bilakah tarikh Rukun Negara diumumkan?",
+        "answer": "31 Ogos 1970"
     },
 
     {
-        "number":19,
+        "number":6,
         "question": "Apakah kereta buatan Malaysia?",
         "answer": "Proton / Perodua"
     },
 
     {
-        "number":20,
-        "question": "Bilakah Hari Malaysia?",
-        "answer": "16 September 1963"
+        "number":7,
+        "question": "Siapakah Perdana Menteri pertama Malaysia?",
+        "answer": "Tunku Abdul Rahman Putra Al-Haj"
     },
 
     {
-        "number":21,
-        "question": "Apakah tema Hari Kebangsaan pada tahun 2022?",
-        "answer": "Keluarga Malaysia Teguh Bersama."
+        "number":8,
+        "question": "Bilakah Tanah Melayu mencapai kemerdekaan?",
+        "answer": "31 Ogos 1957"
     },
 
     {
-        "number":22,
-        "question": "Siapakah Ketua Negara Malaysia?",
-        "answer": "Ketua Negara Malaysia ialah Yang di-Pertuan Agong."
+        "number":9,
+        "question": "Apakah tema kemerdekaan Malaysia pada tahun 2015?",
+        "answer": "Sehati Sejiwa"
     },
 
     {
-        "number":23,
-        "question": "Berapa lama tempoh pemerintahan Yang di-Pertuan Agong?",
-        "answer": "Tempoh pemerintahan Yang di-Pertuan Agong adalah lima tahun"
-    },
-
-    {
-        "number":24,
-        "question": "Bilakah tarikh Rukun Negara diumumkan?",
-        "answer": "Rukun Negara diumumkan pada 31 Ogos 1970"
-    },
-
-    {
-        "number":25,
-        "question": "Rukun Negara diumumkan oleh siapa?",
-        "answer": "Rukun Negara diumumkan oleh bekas Perdana Menteri Malaysia, Tun Abdul Razak."
-    },
-
-    {
-        "number":26,
-        "question": "Nyatakan lima prinsip Rukun Negara.",
-        "answer": "Prinsip-prinsip utama Rukun Negara adalah Kepercayaan kepada Tuhan, Kesetiaan kepada Raja dan Negara, Keluhuran Perlembagaan, Kedaulatan Undang-undang, dan Kesopanan dan Kesusilaan."
-    },
-
-    {
-        "number":27,
-        "question": "Bilakah tarikh pembentukan Malaysia?",
-        "answer": "Pembentukan Malaysia pada 16 September 1963"
-    },
-
-    {
-        "number":28,
-        "question": "Namakan Perdana Menteri Malaysia yang ke 5",
-        "answer": "Tun Abdullah Ahmad Badawi"
+        "number":10,
+        "question": "Apakah sungai terpanjang di Malaysia?",
+        "answer": "Sungai Rajang"
     }
-
-    
 ]

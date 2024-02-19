@@ -1,181 +1,61 @@
 [
 {
     "number": 1,
-    "question": "Apakah yang dimaksudkan dengan demokrasi berparlimen?",
-    "answer": "Demokrasi berparlimen adalah sistem pemerintahan melalui pilihan raya yang dipilih oleh rakyat dan parlimen yang terdiri daripada dewan rakyat dan dewan negara."
-},
-
-{
-    "number": 2,
-    "question": "Apakah maksud warna merah pada Jalur Gemilang?",
-    "answer": "Keberanian"
-},
-
-{
-    "number": 3,
-    "question": "Apakah maksud warna merah pada Jalur Gemilang?",
+    "question": "Apakah maksud warna biru pada Jalur Gemilang?",
     "answer": "Perpaduan"
 },
 
 {
-    "number": 4,
-    "question": "Apakah maksud warna putih pada Jalur Gemilang?",
-    "answer": "Kesucian"
-},
-
-{
-    "number": 5,
-    "question": "Apakah maksud warna kuning pada Jalur Gemilang?",
-    "answer": "Warna Diraja"
-},
-
-{
-    "number": 6,
-    "question": "Apakah yang dimaksudkan dengan 14 jalur pada Jalur Gemilang?",
-    "answer": "13 buah negeri, sebuah wilayah persekutuan."
-},
-
-{
-    "number": 7,
-    "question": "Apakah maksud lima bilah keris yang terdapat pada Jata Negara?",
-    "answer": " Negeri-negeri Melayu tidak bersekutu."
-},
-
-{
-    "number": 8,
-    "question": "Sistem apakah yang diamalkan oleh Malaysia untuk memerintah?",
-    "answer": "Sistem Demokrasi Berparlimen dan Raja Berperlembagaan"
-},
-
-{
-    "number": 9,
-    "question": "Nyatakan salah satu pertubuhan antarabangsa yang disertai oleh Malaysia.",
-    "answer": "ASEAN / PBB / Komenwel / Pertubuhan Kerjasama Islam / NAM"
-},
-
-{
-    "number": 10,
+    "number": 2,
     "question": "Bagaimanakah Yang di-Pertuan Agong dipilih?",
     "answer": "Yang di-Pertuan Agong dipilih daripada Sultan-sultan Negeri-negeri Melayu"
 },
 
 {
-    "number": 11,
-    "question": "Apakah fungsi Dewan Rakyat?",
-    "answer": "Dewan Rakyat bertanggungjawab untuk membentuk undang-undang dan mengawasi kerajaan"
-},
-
-{
-    "number": 12,
-    "question": "Apakah fungsi Dewan Negara?",
-    "answer": "Dewan Negara memainkan peranan sebagai dewan perunding dan mengkaji undang-undang yang dicadangkan di dewan rakyat."
-},
-
-{
-    "number": 13,
-    "question": "Adakah Malaysia mengamalkan prinsip raja berperlembagaan? Jelaskan.",
-    "answer": "Ya, Malaysia mengamalkan prinsip raja berperlembagaan di mana kuasa raja termaktub  oleh Perlembagaan."
-},
-
-{
-    "number": 14,
-    "question": "Apakah yang dimaksudkan dengan kabinet dalam sistem demokrasi berparlimen Malaysia?",
-    "answer": "Kabinet ialah jemaah menteri yang dipilih oleh Perdana Menteri daripada anggota Parlimen untuk membantu dalam pengurusan kerajaan."
-},
-
-{
-    "number": 15,
-    "question": "Apakah peranan Suruhanjaya Pilihan Raya (SPR) dalam sistem pilihan raya Malaysia?",
+    "number": 3,
+    "question": "Apakah peranan Suruhanjaya Pilihan Raya(SPR) dalam sistem pilihan raya Malaysia?",
     "answer": "SPR bertanggungjawab untuk menguruskan pilihan raya dan memastikan proses pilihan raya berjalan secara adil dan telus."
 },
 
 {
-    "number": 16,
-    "question": "Apakah peranan Yang di-Pertuan Agong?",
-    "answer": "Yang di-Pertuan Agong adalah Ketua Negara di peringkat persekutuan"
-},
-
-{
-    "number": 17,
-    "question": "Apakah peranan Raja-Raja Negeri?",
-    "answer": "Raja-Raja Negeri ialah ketua di peringkat negeri masing-masing"
-},
-
-{
-    "number": 18,
-    "question": "Apakah maksud Rukun Negara?",
-    "answer": "Rukun Negara adalah nilai-nilai asas yang mewakili prinsip yang berbentuk dalam hasil perpaduan dalam negara."
-},
-
-{
-    "number": 19,
-    "question": "Apakah tujuan utama Rukun Negara ditubuhkan?",
-    "answer": "Tujuan utama Rukun Negara ialah untuk memupuk perpaduan di kalangan rakyat Malaysia dan mewujudkan masyarakat yang adil, harmoni, dan progresif."
-},
-
-{
-    "number": 20,
-    "question": "Apakah maksud Kepercayaan kepada Tuhan yang terdapat di dalam Rukun Negara?",
-    "answer": "Kepercayaan kepada Tuhan menekankan pentingnya keimanan dan kepatuhan kepada nilai-nilai agama sebagai asas moral dan etika dalam masyarakat.(Dan mana-mana soalan yang boleh diterima)"
-},
-
-{
-    "number": 21,
-    "question": "Bagaimana Kesopanan dan Kesusilaan direfleksikan dalam Rukun Negara?",
-    "answer": "Kesopanan dan Kesusilaan menekankan nilai-nilai moral, etika, dan tata tertib sosial sebagai asas kepada pembentukan masyarakat yang beradab."
-},
-
-{
-    "number": 22,
-    "question": "Apakah nilai-nilai yang terdapat dalam rangkap ke 2 dalam Rukun Negara?",
-    "answer": "Kesetiaan kepada Raja dan Negara,  menekankan pentingnya kesetiaan dan patriotisme, tanggungjawab warganegara terhadap pemerintahan dan negara."
-},
-
-{
-    "number": 23,
-    "question": "Apakah perbezaan pembentukan Malaysia pada tahun 1963 dan tahun 1965",
-    "answer": "Pembentukan Malaysia pada 16 September 1963 melibatkan penyatuan Malaya, Singapura, Sabah, dan Sarawak. Namun, Singapura keluar dari Malaysia pada 1965 akibat perselisihan politik, membawa kepada pembentukan negara berasingan."
-},
-
-{
-    "number": 24,
-    "question": "Apakah tujuan utama sistem pendidikan kebangsaan?",
-    "answer": "Melahirkan masyarakat yang mempunyai sikap toleransi dan menyatupadukan seluruh rakyat."
-},
-
-{
-    "number": 25,
+    "number": 4,
     "question": "Senaraikan 2 peranan YDPA",
-    "answer": "(i) membuka, menutup dan membubarkan Parlimen. (ii) mempunyai kuasa memanggil Parlimen bersidang.(iii) memberi persetujuan kepada rang undang-undang yang diluluskan oleh     Dewan Negara dan Dewan Rakyat dalam tempoh 30 hari (mana-mana jawapan diterima)"
+    "answer": "i) membuka, menutup dan membubarkan Parlimen. (ii) mempunyai kuasa memanggil Parlimen bersidang. (iii) memberi persetujuan kepada rang undang-undang yang diluluskan oleh Dewan Negara dan Dewan Rakyat dalam tempoh 30 hari (mana-mana jawapan diterima)"
 },
 
 {
-    "number": 26,
-    "question": "Apakah persamaan dewan negara dan dewan rakyat?",
-    "answer": "Tidak boleh menjadi ahli untuk kedua-dua dewan"
-},
-
-{
-    "number": 27,
-    "question": "Nyatakan 2 TUGAS WAJIB kerajaan tempatan.",
-    "answer": "Pengumpulan sampah / Penyelenggaraan lampu-lampu jalan / Aktiviti-aktiviti kesihatan awam (mana-mana jawapan di terima)"
-},
-
-{
-    "number": 28,
-    "question": "Jelaskan Kementerian",
-    "answer": "Kementerian adalah sebuah kerajaan tertinggi di dalam sistem jentera pentadbiran kerajaan persekutuan."
-},
-
-{
-    "number": 29,
-    "question": "Apakah peranan Kementerian?",
-    "answer": "Mengubah dasar, merancang program, mengawal dan memantau serta menyelaras perlaksanaan dasar dan projek berkaitan dengan bidang tugas kementerian."
-},
-
-{
-    "number": 30,
+    "number": 5,
     "question": "Nyatakan fungsi badan perundangan.",
     "answer": "Menggubal undang-undang bagi menjamin keadilan dan kesejahteraan."
+},
+
+{
+    "number": 6,
+    "question": "Apakah maksud warna kuning pada Jalur Gemilang?",
+    "answer": "Warna Diraja"
+},
+
+{
+    "number": 7,
+    "question": "Apakah yang dimaksudkan dengan 14 jalur pada Jalur Gemilang?",
+    "answer": "13 buah negeri, sebuah wilayah persekutuan."
+},
+
+{
+    "number": 8,
+    "question": "Apakah maksud lima bilah keris yang terdapat pada Jata Negara?",
+    "answer": "Negeri-negeri Melayu tidak bersekutu."
+},
+
+{
+    "number": 9,
+    "question": "Sistem apakah yang diamalkan oleh Malaysia untuk memerintah?",
+    "answer": "ASistem Demokrasi Berparlimen dan Raja Berperlembagaan"
+},
+
+{
+    "number": 10,
+    "question": "Nyatakan salah satu pertubuhan antarabangsa yang disertai oleh Malaysia.",
+    "answer": "ASEAN / PBB / Komenwel / Pertubuhan Kerjasama Islam / NAM"
 }
 ]
