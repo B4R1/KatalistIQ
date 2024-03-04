@@ -9,7 +9,7 @@
             margin: 0;
             font-family: monospace, sans-serif;
             background-color: #f0f0f0;
-            }
+        }
         
         .topbar {
             background-color: #333;
@@ -35,11 +35,13 @@
             padding: 40px 40px 10px; /* Increase bottom padding to accommodate the icon */
             width: 140px;
             height: 140px;
-            background-color: #fff;border-radius: 20px;
+            background-color: #fff;
+            border-radius: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             cursor: pointer;
             transition: transform 0.3s ease;
             position: relative;
+            margin-bottom: 20px; /* Add margin to create space between the cards */
         }
         
         .card:hover {
@@ -71,15 +73,7 @@
             <img class="icon" src="assets/camera.png" alt="AR Icon"> <!-- Replace "path_to_your_icon.png" with the path to your icon image -->
             <h2 class="card-text">Experience KatilistIQ AR</h2>
         </div>
-    </div>
 
-    <script>
-        function redirectToARPage() {
-            window.location.href = "ar_experience.html"; // Change the filename if your AR page has a different name
-        }
-    </script>
-
-    <div class="container">
         <div class="card" onclick="redirectToAnsPage()">
             <img class="icon" src="assets/folder.png" alt="AR Icon"> <!-- Replace "path_to_your_icon.png" with the path to your icon image -->
             <h2 class="card-text">Answers</h2>
@@ -87,6 +81,10 @@
     </div>
 
     <script>
+        function redirectToARPage() {
+            window.location.href = "ar_experience.html"; // Change the filename if your AR page has a different name
+        }
+
         function redirectToAnsPage() {
             window.location.href = "answer.html"; // Change the filename if your AR page has a different name
         }
